@@ -1,0 +1,66 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#second {
+  color: rgb(51, 51, 51);
+}
+
+#character h1 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 299px;
+  margin-bottom: 183px;
+}
+
+#userimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 183px;
+  width: 500px;
+  height: 500px;
+}
+
+#nextbutton {
+  font-size: 70px;
+  border: 5px none;
+  background-color: rgb(224 ,224 ,224);
+  border-radius: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 14px;
+}
+
+#nextbutton:hover {
+  background-color: tomato;
+  color: white;
+}
+
+.meter {
+	height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+	position: relative;
+	background: rgb(224, 224, 224);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  background-color: tomato;
+}
