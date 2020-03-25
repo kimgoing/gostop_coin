@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(241, 241, 241);
+}
+
+#banner {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 45%;
+  background-color: tomato;
+  border: 1px solid tomato;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Jua', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 25%;
+  margin: 15% auto 5% auto;
+}
+
+#button {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 15%;
+  top: 45%;
+}
+
+.start, .ruleset, .mypage, .about {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.start {
+  padding: 15% 13%;
+  margin: 5%;
+}
+
+.ruleset {
+  padding: 15% 7%;
+  margin-right: 5%;
+}
+
+#button2 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 15%;
+  top: 73%;
+}
+
+.mypage {
+  padding: 15% 9.7%;
+  margin: 0 5%;
+}
+
+.about {
+  padding: 15% 3.5%;
+  margin-right: 5%;
+}
